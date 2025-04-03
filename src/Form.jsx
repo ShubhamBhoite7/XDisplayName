@@ -57,11 +57,7 @@ const handleSubmit = (e) => {
     <button type="submit">Submit</button>
     
     </form>
-    {submitted && fullName && (
-    <div>
-        <p>Full Name : {fullName}</p>
-    </div>
-    )}
+    {fullName && <h3>Full Name: {fullName}</h3>}
 
   </div>
 
